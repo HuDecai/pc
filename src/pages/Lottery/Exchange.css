@@ -1,0 +1,58 @@
+.duihuanHeader {
+  width: 100%;
+  background-image: url('../../assets/images/duihuan_title.png');
+  height: 60px;
+  border-bottom: 1px dashed #ccc;
+  display: flex;
+  align-items: center;
+}
+
+.duihuanText {
+  width: 520px;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
+
+.duihuanContent {
+  width: 100%;
+  background-image: url('../../assets/images/duihuan_content.png');
+  height: 320px;
+  padding: 80px 65px;
+}
+
+.duihuanContent1 {
+  font-size: 18px;
+  color: #5b5b5b;
+  margin-bottom: 10px;
+}
+
+.duihuanButton {
+  width: 190px;
+  height: 55px;
+  background-color: #de3c4b;
+  text-align: center;
+  line-height: 55px;
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-top: 60px;
+}
+
+.noDuihuanButton {
+  width: 190px;
+  height: 55px;
+  border: 1px solid #ccc;
+  background-color: #f8f8f8;
+  text-align: center;
+  line-height: 55px;
+  font-size: 25px;
+  color: #5b5b5b;
+  border-radius: 3px;
+  margin-top: 60px;
+}
+
+.duihuanButton:hover {
+  background-color: #e25965;
+}

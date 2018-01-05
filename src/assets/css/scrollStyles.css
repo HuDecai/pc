@@ -1,0 +1,54 @@
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+::-webkit-scrollbar-track {
+-webkit-box-shadow:inset006pxrgba(0,0,0,0.3);
+border-radius:10px;
+}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+border-radius:10px;
+background:#c1c2c2;
+-webkit-box-shadow:inset006pxrgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+background:rgba(255,255,255,0.4);
+}
+
+::-ms-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+::-ms-scrollbar-track {
+-webkit-box-shadow:inset006pxrgba(0,0,0,0.3);
+border-radius:10px;
+}
+/* 滚动条滑块 */
+::-ms-scrollbar-thumb {
+border-radius:10px;
+background: #c1c2c2;
+-webkit-box-shadow:inset006pxrgba(0,0,0,0.5);
+}
+::-ms-scrollbar-thumb:window-inactive {
+background:rgba(255,255,255,0.4);
+}
+
+::-moz-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+::-moz-scrollbar-track {
+-webkit-box-shadow:inset006pxrgba(0,0,0,0.3);
+border-radius:10px;
+}
+/* 滚动条滑块 */
+::-moz-scrollbar-thumb {
+border-radius:10px;
+background:#c1c2c2;
+-webkit-box-shadow:inset006pxrgba(0,0,0,0.5);
+}
+::-moz-scrollbar-thumb:window-inactive {
+background:rgba(255,255,255,0.4);
+}

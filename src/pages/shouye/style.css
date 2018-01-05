@@ -1,0 +1,68 @@
+body {
+  font-family: 微软雅黑 !important;
+}
+
+.loginContainer {
+  background: #f8f8f8;
+  width: 100%;
+  min-width: 1270px;
+  font-family: 微软雅黑;
+  overflow-x: hidden;
+}
+.loginCardContainer {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.loginCard {
+  height: 432px;
+  width: 380px;
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 3px 0 rgba(178,178,178,0.50);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 100;
+}
+.loginCardTitle {
+  font-size: 32px;
+  color: #fff;
+  letter-spacing: 0;
+  margin-top: 60px;
+}
+.loginCardDes {
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: 0;
+  margin: 10px 10px;
+}
+.loginCardHelp {
+  font-size: 20px;
+  color: #00A0E9;
+  letter-spacing: 0;
+}
+.loginCardQRCode {
+  margin-top: 30px;
+  position: relative;
+  border: 5px solid #fff;
+}
+.timeoutQrcode {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  height: 165px;
+  width: 160px;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.timeoutLabel {
+  color: #fff;
+  font-size: 16px;
+  background: #000;
+  margin: 10px 0;
+}

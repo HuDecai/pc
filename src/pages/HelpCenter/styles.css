@@ -1,0 +1,220 @@
+body {
+  font-family: 微软雅黑 !important;
+}
+
+.loginContainer {
+  background: #f8f8f8;
+  width: 100%;
+  min-width: 1270px;
+  font-family: 微软雅黑;
+}
+
+{/*  帮助中心   */}
+.bodyContent {
+  width: 100%;
+  margin-top: 15px;
+  height: calc(100vh - 106px);
+  min-height: 635px;
+}
+
+.helpCenterBody {
+  min-height: calc(100vh - 106px)
+}
+.helpCenterContent  {
+  margin: 0 auto;
+  width: 1100px;
+  /*height: calc(100vh - 213px);*/
+  /*height: 100%;*/
+  /*height: calc(100vh - 106px);*/
+  border: 1px solid #e7e7e7;
+  display: flex;
+}
+
+.helpLeft {
+  width: 232px;
+  /*height: 100%;*/
+  height: auto;
+  background-color: #e7e7e7;
+  border-right: 1px solid black;
+}
+
+.left1 {
+  height: 50px;
+  background: -webkit-linear-gradient(top, #c4c4c4, #a2a2a2);
+  font-size: 18px;
+  color: #fff;
+  line-height: 50px;
+  padding-left: 20px;
+}
+
+.left {
+  height: 40px;
+  border-bottom: 1px solid #ccc;
+  font-size: 16px;
+  color: #6d6d6d;
+  line-height: 40px;
+  padding-left: 40px;
+  cursor: pointer;
+}
+
+.onLeft {
+  height: 40px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  background-color: #fff;
+  font-size: 16px;
+  color: #6d6d6d;
+  line-height: 40px;
+  padding-left: 40px;
+  width: 233px;
+  cursor: pointer;
+}
+
+.helpRight {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  padding: 10px 40px 20px;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.helpRigthTitle {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 2px solid #de3c4b;
+}
+
+.noHelpRigthTitle {
+  height: 30px;
+  width: 85px;
+  margin-right: 10px;
+  font-size: 15px;
+  color: #5b5b5b;
+  text-align: center;
+  line-height: 30px;
+  background-color: #e7e7e7;
+  cursor: default;
+}
+
+.onHelpRigthTitle {
+  height: 30px;
+  width: 85px;
+  margin-right: 10px;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  background-color: #de3c4b;
+  cursor: default;
+}
+
+.helpContent {
+  background-color: #e7e7e7;
+  margin-top: 10px;
+  width: 100%;
+  /*height: calc(100vh - 200px);*/
+  font-size: 13px;
+  color: #5b5b5b;
+  border: 1px solid black;
+  overflow: scroll;
+  padding: 10px 20px;
+  line-height: 25px;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.helpCenterBottom {
+  width: 100%;
+  height: 105px;
+  background-color: #e7e7e7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #878787;
+}
+.helpCenterBottom1 {
+  font-size: 13px;
+  display: flex;
+}
+
+.helpCenterBottom1 > div {
+  margin: 0 20px 10px;
+  cursor: pointer;
+}
+
+.helpCenterBottom1 > div:hover {
+  color: #de3c4b;
+}
+
+.firstItem {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+.firstTitle {
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  background-color: #de3c4b;
+  margin-right: 5px;
+}
+
+.firstImg {
+  width: 0;
+  height: 0;
+  border-top: 8px solid #de3c4b;
+  border-left: 8px solid transparent;
+  margin: 8px 10px 0 0;
+}
+
+.firstItemImg {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 30px;
+}
+
+
+{/* 玩法 */}
+.playInfoTitle {
+  height: 40px;
+  display: flex;
+  background-color: #585858;
+  color: #fff;
+  line-height: 40px;
+}
+
+.playInfoItem1 {
+  width: 120px;
+  text-align: center;
+}
+
+.playInfoItem2 {
+  width: 500px;
+  text-align: center;
+}
+
+.playInfoItem3 {
+  width: 500px;
+  text-align: left;
+  padding: 0 10px;
+}
+
+.playInfoContent {
+  border: 1px solid black;
+  margin-top: 5px;
+}
+
+.playInfoContentItem {
+  display: flex;
+  padding: 8px 0;
+}
+.bodyContentClear{
+  height: auto;
+}
+

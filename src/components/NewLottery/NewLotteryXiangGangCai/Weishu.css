@@ -1,0 +1,123 @@
+.playContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+
+.selectPlayContentCard {
+  border-radius: 5px;
+  margin-top: 5px;
+  height: 46px;
+  width: 232px;
+  border: 1px solid #e35966;
+  background: url('../../../assets/images/new-lottery-selected.png') no-repeat 212px top;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+
+.playContentCard {
+  border-radius: 5px;
+  margin-top: 5px;
+  height: 46px;
+  width: 232px;
+  border: 1px solid #c2c2c2;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.playContentCard:hover {
+  border: 1px solid #e35966;
+  box-shadow: 0px 0px 2px #e35966 inset;
+}
+
+
+.selectPlayContentCard1 {
+  border-radius: 5px;
+  margin-top: 5px;
+  height: 46px;
+  width: 90px;
+  border: 1px solid #e35966;
+  background: url('../../../assets/images/new-lottery-selected.png') no-repeat 70px top;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+
+.playContentCard1 {
+  border-radius: 5px;
+  margin-top: 5px;
+  height: 46px;
+  width: 90px;
+  border: 1px solid #c2c2c2;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.playContentCard1:hover {
+  border: 1px solid #e35966;
+  box-shadow: 0px 0px 2px #e35966 inset;
+}
+
+.leftCard {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ballOne {
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  color: #fff;
+  background-color: #e35966;
+  text-align: center;
+  line-height: 25px;
+  margin-left: 5px;
+}
+.ballTwo {
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  color: #fff;
+  background-color: #47992e;
+  text-align: center;
+  line-height: 25px;
+  margin-left: 5px;
+}
+
+.ballThree {
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  color: #fff;
+  background-color: #45a4d0;
+  text-align: center;
+  line-height: 25px;
+  margin-left: 5px;
+}

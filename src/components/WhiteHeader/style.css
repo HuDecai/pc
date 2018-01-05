@@ -1,0 +1,254 @@
+body {
+  margin: 0 0;
+  font-family: 微软雅黑;
+}
+.whiteHeader {
+  width: 100%;
+  min-width: 1270px;
+  z-index: 100;
+  background: #e7e7e7;
+  font-size: 12px;
+  color: #a1a1a1;
+  letter-spacing: 0;
+  line-height: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 0 4px;
+}
+
+
+.container {
+  width: 1100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.description {
+  margin-right: 20%;
+}
+
+.logo {
+  margin-left: -10px;
+}
+
+.navTop {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+  /*font-weight: 200;*/
+  font-size: 14px;
+  color: #888;
+}
+
+.navBottom {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-bottom: 5px;
+  font-weight: 300;
+  font-size: 12px;
+  color: #5b5b5b;
+}
+
+.navTop li, .navBottom li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.navTop li ul {
+  float: left;
+  margin-left: 15px;
+  font-size: 14px;
+  cursor: default;
+}
+.navTop li ul a{
+  text-decoration:none;
+}
+.navTop li ul a:hover, .navTop li ul a:active {
+  color: #E6482E;
+  text-decoration:none;
+}
+
+.navTop li ul div:hover {
+  color: #E6482E;
+}
+
+.navBottom li ul {
+  align-items: center;
+  display: flex;
+  margin-left: 18px;
+  font-size: 18px;
+}
+
+.navBottom li ul:hover span{
+  float: left;
+  margin-left: 10px;
+  font-size: 18px;
+  color: #E6482E;
+  cursor: pointer;
+}
+.navTop li ul a {
+  color: #888;
+  float: left;
+}
+
+.borderUl {
+  display: inline-block;
+  height: 12px;
+  width: 1px;
+  border-right: 0.5px solid #bdbdbd;
+}
+
+.borderUl2 {
+  display: inline-block;
+  height: 14px;
+  border-left: 0.5px solid #aaa;
+  width: 1px;
+}
+
+.img1Content {
+  background-image: url('../../assets/images/home-page-header-no1.png');
+  background-repeat:no-repeat;
+}
+
+.img1Content:hover, .img1Content:active, .img1Content:visited {
+  color: #E6482E;
+  cursor: pointer;
+  background-image: url('../../assets/images/home-page-header1.png');
+}
+
+.img3Content {
+  background-image: url('../../assets/images/home-page-header-no2.png');
+  background-repeat:no-repeat;
+  position: relative;
+}
+
+.img3Content:hover {
+  cursor: pointer;
+  background-image: url('../../assets/images/home-page-header2.png');
+}
+
+.img4Content {
+  background-image: url('../../assets/images/home-page-header-no3.png');
+  background-repeat:no-repeat;
+}
+
+.img4Content:hover {
+  color: #E6482E;
+  cursor: pointer;
+  background-image: url('../../assets/images/home-page-header3.png');
+}
+
+.img5Content {
+  background-image: url('../../assets/images/home-page-header-no4.png');
+  background-repeat:no-repeat;
+}
+.img5Content:hover {
+  color: #E6482E;
+  cursor: pointer;
+  background-image: url('../../assets/images/home-page-header4.png');
+}
+.img6Content {
+  background-image: url('../../assets/images/home-page-header-no5.png');
+  background-repeat:no-repeat;
+}
+.img6Content:hover {
+  color: #E6482E;
+  cursor: pointer;
+  background-image: url('../../assets/images/home-page-header5.png');
+}
+.img7Content {
+  background-image: url('../../assets/images/home-page-header-no6.png');
+  background-repeat:no-repeat;
+}
+.img7Content:hover {
+  color: #E6482E;
+  cursor: pointer;
+  background-image: url('../../assets/images/home-page-header6.png');
+}
+.img8Content {
+  background-image: url('../../assets/images/home-page-header-no7.png');
+  background-repeat:no-repeat;
+}
+.img8Content:hover {
+  color: #E6482E;
+  cursor: pointer;
+  background-image: url('../../assets/images/home-page-header7.png');
+}
+
+.img9Content {
+  background-image: url('../../assets/images/home-page-header-no8.png');
+  background-repeat:no-repeat;
+}
+.img9Content:hover {
+  color: #E6482E;
+  cursor: pointer;
+  background-image: url('../../assets/images/home-page-header8.png');
+}
+.triangleUpDiv {
+  position: absolute;
+  top: 19px;
+  left: -220px;
+  width: 500px;
+  height: 20px;
+}
+.triangleUp {
+  position: relative;
+  top: 0px;
+  left: 240px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid #fff;
+  z-index: 1001;
+}
+.lotteryTypeList {
+  position: absolute;
+  background: #fff;
+  top: 33px;
+  left: -305px;
+  box-shadow: 1px 7px 21px 3px #000;
+  z-index: 1000;
+  width: 680px;
+}
+
+.lotteryTypeItem {
+  font-size: 13px;
+  line-height: 26px;
+  padding: 0 5px;
+  margin: 5px 5px 0;
+  display: inline-flex;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #353535;
+  font-weight: 400;
+}
+
+.lotteryTypeItemNo {
+   display: inline-flex;
+} 
+.lotteryTypeItem:hover {
+  /*box-shadow: 0px 0px 10px #c1c2c2;*/
+  background-color: #de3c4b;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.lotteryType {
+  padding: 10px 0;
+  margin: 0 15px;
+  border-bottom: 1px dashed #c1c2c2;
+}

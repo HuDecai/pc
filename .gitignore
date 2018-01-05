@@ -1,0 +1,9 @@
+.idea
+node_modules
+dist/bundle.js
+dist/main.css
+*.log
+.DS_Store
+*/.DS_Store
+dist
+AppInfo.js

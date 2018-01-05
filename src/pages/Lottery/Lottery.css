@@ -1,0 +1,61 @@
+:global(html) {
+  height: 100%;
+  width: 100%;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-family: 微软雅黑;
+}
+:global(body) {
+  height: 100%;
+  width: 100%;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-family: 微软雅黑;
+}
+:global(#app) {
+  /*height: 100%;
+  width: 100%;*/
+}
+
+.lotteryPage {
+  min-width: 1270px;
+  height: 100vh;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  background-image:url('../../assets/images/04_03.png');
+}
+.lotteryContainer {
+  width: 1050px;
+  position: relative;
+}
+
+.lotteryMain {
+  display: flex;
+  flex-direction: column;
+  width: 1050px;
+  height: 632px;
+  box-shadow: 0px 5px 30px grey;
+  background-color: #f2f2f2;
+}
+.lotteryMain2 {
+  display: flex;
+  flex-direction: row;
+  width: 1050px;
+  height: 577px;
+  background-color: #f2f2f2;
+}
+.lotteryMainLeft {
+  width: 758px;
+}
+.lotteryMainRight {
+  width: 292px;
+  border-left: 1px solid #dbdbdb;
+}
+
+.PlayKindDetail {
+  height: 322px;
+  box-shadow: inset 0px -2px 0px rgba(193,194,194,.7);
+}

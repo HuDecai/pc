@@ -1,0 +1,969 @@
+@keyframes animatedBackground {
+  from { height: 0; }
+  to { height: 350px; }
+}
+
+.BaseInfoContainer {
+    width: 100%;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #f8f8f8;
+    flex-direction: column;
+}
+/*导航*/
+.navHeader{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    /*height: 95px;*/
+}
+
+.contentContainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    width: 1050px;
+    height: 931px;
+
+}
+.leftContent{
+    display: flex;
+    flex-direction: column;
+    background-color: #e7e7e7;
+    width: 230px;
+}
+.rightContent{
+
+}
+
+.userIcon{
+  width: 120px;
+}
+
+.nameContainer{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.name{
+    font-size: 12px;
+}
+
+.exit{
+    color: red;
+    margin-left: 10px;
+}
+.userInfoContainer{
+    padding: 20px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*border-right: 1px solid #bebebe;*/
+    width: 100%;
+}
+
+.itemBtnNormal{
+    display: flex;
+    /*justify-content: center;*/
+    padding: 16px 0 16px 42px;
+    align-items: center;
+    border-top: 1px solid #bebebe;
+    /*border-bottom: 1px solid #bebebe;*/
+    width: 100%;
+    cursor: pointer;
+}
+.itemBtnNormal:last-child{
+    border-bottom: 1px solid #bebebe;
+}
+
+.itemBtnSelected{
+    display: flex;
+    cursor: pointer;
+    /*justify-content: center;*/
+    padding: 16px 0 16px 42px;
+    align-items: center;
+    border-left: 1px solid #bebebe;
+    border-top: 1px solid #bebebe;
+    background-color: white;
+    width: calc(100% + 1px);
+    z-index: 100;
+}
+
+.itemBtnIcon{
+    width: 50px;
+    height: 50px;
+}
+
+.itemBtnTitle{
+    font-size: 18px;
+    color: #646464;
+    margin-left: 24px;
+}
+
+
+/*
+UserInfo组件的CSS
+*/
+
+.userContainer{
+    width: 821px;
+    padding: 20px 48px 20px 48px;
+    /*box-sizing: border-box;*/
+    position: relative;
+    /*top: 25px;*/
+    background-color: #fff;
+    border: 1px solid #bebebe;
+    overflow-y: scroll;
+}
+
+.infoType{
+    width: 100%;
+    margin-left: -9px;
+    text-align: left;
+    color: #5b5b5b;
+    font-size: 16px;
+}
+
+.dashed{
+    margin-top: 10px;
+    width: 100%;
+    border-top: 1px dashed #bebebe;
+}
+
+.border{
+    margin-top: 20px;
+    width: 100%;
+    border-top: 1px solid #e7e7e7;
+}
+
+.itemContentContainer{
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    height: auto;
+    width: 100%;
+    font-size: 14px;
+}
+
+.title{
+  width: 150px;
+}
+.updateInput{
+  width: 200px;
+}
+
+.content{
+    position: absolute;
+    left: 142px;
+}
+
+.changeBtn{
+    color: #de3c4b;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.inputText{
+    /*position: absolute;
+    left: 110px;*/
+}
+.inputText input{
+    border: 1px solid #fceeef;
+}
+
+.inputBtn{
+    background-color: #de3c4b;
+    border-radius: 4px;
+    width: 65px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+/*
+SystemMessage组件样式
+*/
+
+.topItemContainer{
+    display: flex;
+    width: 715px;
+}
+
+.topItemNormal{
+  width: 90px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #808080;
+  font-size: 16px;
+  background-color: #e7e7e7;
+  cursor: pointer;
+}
+
+.topItemSelected{
+  width: 90px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  background-color: #de3c4b;
+  cursor: pointer;
+}
+
+.redLine{
+    width: 715px;
+    height: 2px;
+    background-color: #de3c4b;
+}
+
+.sysMessageContainer{
+    display: flex;
+    /*width: 100%;*/
+    width: 705px;
+    /*align-items: center;*/
+    margin-top: 26px;
+    z-index: 300;
+}
+
+/*.personalContainer{*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+/*}*/
+
+.timeLineContainer{
+  position: relative;
+  /*overflow: hidden;*/
+  max-height: 835px;
+}
+.sysTimeLine {
+  position: absolute;
+  height: calc(100% + 30px);
+  top: -10px;
+  left: 0;
+  width: 60px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.timeLineSys {
+  /*position: absolute;*/
+  top: 0;
+  left: 0;
+}
+.sysTimeLine span:first-child, .sysTimeLine span:last-child {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(222, 60, 75);
+}
+.sysTimeLine span:nth-child(2) {
+  width: 2px;
+  background: rgb(222, 60, 75);
+  height: calc(100% - 30px);
+  z-index: 201;
+}
+.sysContent{
+    width: 622px;
+    /*padding-top: 12px;*/
+    /*padding-bottom: 12px;*/
+    /*background: url("../../assets/images/sysMessageBG.png") no-repeat 0px 0px;*/
+    /*background-size: 100% 100%;*/
+    margin-left: 10px;
+    font-size: 18px;
+    color: #707070;
+    position: relative;
+    overflow: hidden;
+}
+
+.sysTime{
+  height: 25px;
+  line-height: 25px;
+  font-size: 12px;
+  color: #5b5b5b;
+  background: #fff;
+  margin-top: 10px;
+  z-index: 1000!important;
+}
+.sysContentTitle {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 32px;
+}
+.new {
+  background-color: rgb(222, 60, 75);
+  position: absolute;
+  right: -27px;
+  top: -27px;
+  transform:rotate(45deg);
+  width: 55px;
+  height: 55px;
+  color: white;
+  font-size: 11px;
+  z-index: 47;
+}
+.newText {
+  position: absolute;
+  right: -2px;
+  top: 6px;
+  transform:rotate(45deg);
+  width: 30px;
+  height: 20px;
+  color: white;
+  font-size: 11px;
+  z-index: 48;
+}
+
+.sysContentText {
+  width: 388px;
+  height: 32px;
+  margin-left: 30px;
+  overflow-y: hidden;
+}
+
+
+.contentText{
+  cursor: pointer;
+  font-size: 18px;
+  color: #707070;
+  display: flex;
+  width: 123px;
+  align-items: center;
+}
+
+.lookMore{
+  width: 16px;
+  height: 16px;
+  margin-left: 2px;
+}
+
+.sysContentDetail {
+  margin-top: -2px;
+  margin-left: 9px;
+  width: 613px;
+  padding: 5px 21px;
+  text-align: justify;
+  font-size: 14px;
+  color: #5b5b5b;
+  border: 1px solid #bebebe;
+  border-top: 0;
+  line-height: 1.5;
+  height: 350px;
+  animation: animatedBackground 1s linear;
+}
+
+
+.personalContainer{
+    width: 725px;
+    height: 533px;
+    border: 1px solid #bebebe;
+    margin-top: 15px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.personalTopContainer{
+    display: flex;
+    height: 47px;
+    background-color: #f8f8f8;
+    width: 100%;
+}
+
+.personalItemNormal{
+    display: flex;
+    background-color:#f8f8f8 ;
+    border-bottom: 1px solid #bebebe;
+    border-right: 1px solid #bebebe;
+    padding: 15px 30px 15px 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+.personalItemSelect{
+    cursor: pointer;
+    display: flex;
+    background-color:white ;
+    border-top: 2px solid #de3c4b;
+    border-right: 1px solid #bebebe;
+    padding: 15px 30px 15px 30px;
+    height: auto;
+    color: #de3c4b;
+}
+
+.messageTopItemIcon{
+    width: 27px;
+    height: 17px;
+    margin-right: 4px;
+}
+
+.blank{
+    display: flex;
+    flex: 1;
+    border-bottom: solid 1px #bebebe;
+}
+
+.fillterView{
+    display: flex;
+    width: 705px;
+    margin: 0 10px 0 10px;
+    height: 45px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.personalBorderLine{
+    background-color: #bebebe;
+    height: 1px;
+    width: 705px;
+    margin: 0 10px 0px 10px;
+}
+
+.sendMessageEditBtn{
+    width: 40px;
+    height: 22px;
+    text-align: center;
+    line-height: 20px;
+    border: 1px solid #bebebe;
+    border-radius: 4px;
+}
+
+.sendeMessageMoreContainer{
+    background: url("../../assets/images/sendMessageDetailBack.png") no-repeat 0px 0px;
+    background-size: 100% 100%;
+    padding: 16px;
+    margin: 2px 15px 10px 30px;
+    animation: fade-scale;
+    animation: 0.5s;
+}
+
+@keyframes fade-scaleY{
+    0% { transform: scale(1,0); }
+    100% { transform: scale(1,1); }
+}
+
+sendMessageForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sendeMessageInput{
+    height: 30px!important;
+    width: 430px!important;
+}
+
+.sendMessageFormItem{
+    margin:10px 0 0 0!important;
+    width: 548px!important;
+}
+
+.sendMessageTextArea{
+    height: 100px!important;
+}
+
+.normalBtn{
+    display: flex;
+    width:65px;
+    height:32px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 4px;
+    color: #333333;
+    border: solid 1px #bebebe;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.sendMessageFormBottonFunc{
+    display: flex;
+}
+
+.pageTurningContainer{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /*margin-top: 28px;*/
+    bottom: 15px;
+}
+.turningBtn{
+    background-color: #5b5b5b;
+    color: white;
+    font-size: 14px;
+    padding: 8px 15px;
+    border-radius: 2px;
+}
+
+.sendMsgFormContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sendMsgFormItemContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.selectPeople{
+
+    background-color: #f1f1f1;
+    width: 320px;
+    height: 32px;
+    margin-left: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    line-height: 32px;
+}
+.sendNewMsgTextArea{
+    height: 200px!important;
+}
+.sendNewMsgInput{
+    width: 244px!important;
+}
+.filterPeople{
+    display: flex;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.peopleContainer{
+    background: url("../../assets/images/peopleContainerBack.png") no-repeat 0px 0px;
+    background-size: 100% 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 15px;
+    width: 548px;
+    transform: scale(0);
+}
+
+.peopleContainerShow{
+    background: url("../../assets/images/peopleContainerBack.png") no-repeat 0px 0px;
+    background-size: 100% 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 15px;
+    width: 548px;
+    animation: fade-scale;
+    animation-duration: 0.5s;
+}
+.peopleContainerDismiss{
+    background: url("../../assets/images/peopleContainerBack.png") no-repeat 0px 0px;
+    background-size: 100% 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 15px;
+    width: 548px;
+    animation: fade-dismiss;
+    animation-duration: 0.5s;
+}
+
+
+@keyframes fade-dismiss{
+    0% { transform: scale(1); }
+    100% { transform: scale(0); }
+}
+
+.peopleList{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+    height: 150px;
+    overflow: scroll;
+}
+/*
+ChangeBankCard组件样式
+*/
+
+.bankContainer{
+    background-color: #f8f8f8;
+    border-radius: 4px;
+    width: 220px;
+    height: 135px;
+    margin-top: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    flex: none;
+    border: 1px solid #e9e9e9;
+}
+
+.titleView{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 8px 8px;
+    font-size: 14px;
+}
+.titleView div{
+    display: flex;
+    align-items: center;
+}
+
+.bankLogo{
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+}
+.contentView{
+    display: flex;
+    padding: 32px 10px 13px 13px;
+    width: 100%;
+    justify-content: space-between;
+}
+.cardsContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.addCardContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff3f3;
+    border-radius: 4px;
+    width: 220px;
+    height: 135px;
+    margin-top: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px dashed #b2b2b2;
+}
+
+.bottomFuncText{
+    color: #de3c4b;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5px;
+    /*align-self: flex-end;*/
+    width: 35px;
+    cursor: pointer;
+}
+
+.bottomFuncView{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+}
+
+.addCardForm{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 209px;
+    left: 119px;
+    width: 578px;
+    height: 380px;
+    align-items: center;
+    background-color: white;
+    animation: fade-scale;
+    animation-duration: 0.5s;
+    box-sizing: border-box;
+}
+
+@keyframes fade-scale{
+    0% { transform: scale(0); }
+    100% { transform: scale(1); }
+}
+
+/*@keyframes fade-scale {*/
+    /*0% {scale: 0;}!*初始状态 透明度为0*!*/
+    /*40% {opacity: 0;}!*过渡状态 透明度为0*!*/
+    /*100% {opacity: 1;}!*结束状态 透明度为1*!*/
+/*}*/
+
+.cardFormTitle{
+    color: #252525;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.closeEditBtnBorder {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  right: -215px;
+  cursor: pointer;
+  border: 1px solid #c7c8c8;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.closeEditBtn{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 7.2px;
+    left: 7.2px;
+}
+
+.alertBar{
+    background-color: #fff8e4;
+    width: 545px;
+    line-height: 35px;
+    margin-top: 10px;
+    height: 35px;
+    border: 1px dashed #bebebe;
+    text-align: center;
+}
+
+.maskView{
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 10px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    animation: fade-in;
+    animation-duration: 0.5s;
+}
+
+@keyframes fade-in {
+    0% {opacity: 0;}/*初始状态 透明度为0*/
+    40% {opacity: 0.4;}/*过渡状态 透明度为0*/
+    100% {opacity: 1;}/*结束状态 透明度为1*/
+}
+
+
+.bindBtn{
+    display: flex;
+    width:65px;
+    height:32px;
+    justify-content: center;
+    align-items: center;
+    background-color: #de3c4b;
+    border-radius: 4px;
+    color: white;
+    margin-left: 113px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.bindBtn2{
+  margin-top: -10px;
+  margin-left: 139px;
+  display: flex;
+  width:65px;
+  height:32px;
+  justify-content: center;
+  align-items: center;
+  background-color: #de3c4b;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.bankFormInput{
+    height: 32px!important;
+    width: 300px!important;
+}
+
+.shortInputFirst{
+    width: 100px!important;
+    height: 32px!important;
+}
+
+.shortInput{
+    width: 86px!important;
+    height: 32px!important;
+}
+
+.shortInputFormItem{
+    width: 120px!important;
+
+}
+/*
+    ChangePassword样式
+*/
+.changPasswordFormContainer{
+    display: flex;
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+
+.formItem{
+    margin-top: 0px;
+}
+
+.changePassFormLine{
+    width: 100%;
+    border-top: 1px solid #e7e7e7;
+}
+
+.changePassForm{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.submitBtn{
+    width: 63px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    background-color: #de3c4b;
+    border-radius: 3px;
+    color: white;
+    margin-top: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.infoContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.provinceAndCity {
+  /*height: 32px;
+  width: 90px;*/
+  display: flex;
+  /*justify-content: space-around;*/
+  align-items: center;
+}
+.provinceForm {
+  width: 460px;
+  margin-left: 55px;
+  display: flex;
+  align-items: center;
+  height: 35px;
+}
+
+.province {
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.formLabel {
+  width: 84px;
+  font-size: 14px;
+  color: #5b5b5b;
+}
+/*变手型*/
+.clickHand{
+    cursor: hand;
+}
+/*:global(.has-error) {
+  width: 304px !important;
+  height: 40px !important;
+}
+:global(.has-feedback) {
+  width: 304px !important;
+  height: 40px !important;
+}*/
+
+/*footer*/
+
+.helpCenterBottom {
+  width: 100%;
+  height: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #878787;
+}
+.helpCenterBottom1 {
+  font-size: 13px;
+  display: flex;
+}
+.helpCenterBottom1 > div {
+  margin: 0 20px 10px;
+  cursor: pointer;
+}
+
+.helpCenterBottom1 > div:hover {
+  color: #de3c4b;
+}
+
+:global(.ant-select-selection--single) {
+  height: 32px !important;
+  line-height: 32px!important;
+}
+:global(.ant-select-selection-selected-value) {
+  height: 32px !important;
+  line-height: 32px!important;
+}
+:global(.ant-select-selection__placeholder) {
+  height: 24px !important;
+  line-height: 24px!important;
+}
+:global(.ant-radio-button-wrapper-checked) {
+  border-color: #de3c4b!important;
+  box-shadow: none!important;
+  background: #de3c4b!important;
+  color: #fff!important;
+}
+:global(.ant-radio-button-wrapper:first-child) {
+  border-radius: 4px 0 0 4px!important;
+}
+:global(.ant-radio-button-wrapper:last-child) {
+  border-radius: 0 4px 4px 0!important;
+}
+:global(.ant-radio-button-wrapper) {
+  border:1px solid #de3c4b!important;
+}
+:global(.ant-radio-button-wrapper:hover) {
+  color: #de3c4b!important;
+}
+:global(.ant-radio-button-wrapper:visited) {
+  color: #de3c4b!important;
+}
+
+.pointer{
+    cursor: pointer;
+}
+/*
+2017年11月14日20:15:03
+增加style
+*/
+.sysKfb,.sysTime{text-align: right;padding-right: 20px;margin: 0px;font-size: 14px;}
+.pop{position: absolute;right:10px;}
+.setting{color:#cc3333; cursor: pointer;}
+.green{color:#339900;}
+.dcLabel{width: 30%;text-align: right;}
+.dcsettings{padding-top: 10px;}
+.submitBtn{margin-left: 120px;}
+:global(.dcsettings){padding-top: 18px;}
+:global(.dcsettings .ant-input-lg){width: 190px !important;height: 30px !important;}
+:global(.dcsettings .ant-form-item){margin-bottom: 11px;}
+:global(.dcsettings .ant-form-explain){display: inline-block;margin-left: 10px;}
+:global(.dcsettings .ant-select){width: 190px !important;height: 30px !important;}
+.alertBarRed{border:1px dashed red;background-color: #fff8e4;width: 545px;line-height: 35px;margin-top: 10px;height:35px;text-align: center;color: #de3c4b;}
+.bankPop{text-align: center;font-size: 20px;padding-top: 10px;width: 100%;margin-top: 200px;}
+.sysTimeWidth{padding-right: 0px;width: 100px;}
+.sysContentTitleX{background-position-x: -1px !important;border-right: 1px solid #bebebe;}
+.sysContentDetailW{padding-right: 21px;width: 589px;}

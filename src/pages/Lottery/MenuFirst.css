@@ -1,0 +1,29 @@
+.menuFirst {
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  box-shadow: inset 0px -3px 0px rgba(193,194,194,.7);
+  padding-left: 15px;
+}
+.menuFirstItem {
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  font-size: 14px;
+  padding: 0 10px;
+  margin-right: 13px;
+  cursor: pointer;
+}
+
+.menuFirstItemSelect{
+  height: 35px;
+  line-height: 32px;
+  text-align: center;
+  font-size: 14px;
+  padding: 0 10px;
+  background-color: #fff;
+  margin-right: 13px;
+  cursor: pointer;
+  /*border-bottom: 4px solid white;*/
+}

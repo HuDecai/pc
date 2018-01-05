@@ -1,0 +1,84 @@
+.lotteryResult {
+  width: 291px;
+  height: 134px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 8px;
+  background-color: #f2f2f2;
+}
+.lotteryResultDesc {
+  font-size: 13px;
+  line-height: 26px;
+  box-sizing: border-box;
+  color: #0e0e0e;
+}
+.lotteryResultNumbers {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+}
+
+.resultCard {
+  padding-top: 3px;
+  width: 35px;
+  height: 50px;
+  border: 1px solid #ccc;
+  margin: 0 2px;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+
+.cardBottom{
+  width: 100%;
+  background: #f8f8f8;
+  text-align: center;
+  height: 16px;
+  border-radius: 3px;
+}
+
+.lotteryResultBottom {
+  width: 100%;
+  font-size: 14px;
+  color: #0e0e0e;
+  display: flex;
+  justify-content: space-around;
+  cursor: default;
+}
+
+.ballOne {
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  color: #fff;
+  background-color: #e35966;
+  text-align: center;
+  line-height: 25px;
+}
+.ballTwo {
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  color: #fff;
+  background-color: #47992e;
+  text-align: center;
+  line-height: 25px;
+}
+
+.ballThree {
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  color: #fff;
+  background-color: #45a4d0;
+  text-align: center;
+  line-height: 25px;
+}

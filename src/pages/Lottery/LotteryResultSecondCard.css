@@ -1,0 +1,74 @@
+.lotteryResultFirstCard {
+  width: 291px;
+  padding: 10px 3px 0px;
+  background-color: #dbdbdb;
+  /*border-right: 1px solid #ccc;*/
+  box-shadow: 0px -1px 0px rgba(255,255,255,.4);
+}
+
+.cardTabs {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  box-shadow: inset 0px -3px 0px #c1c2c2;
+}
+.cardTab {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.cardTab:hover {
+  cursor: pointer;
+}
+
+
+.pickTableHeader {
+  display: flex;
+  height: 30px;
+  font-size: 12px;
+  border-bottom: 1px dashed #c1c2c2;
+  align-items: center;
+}
+
+.pickTableTd {
+  display: flex;
+  font-size: 12px;
+  border-bottom: 1px dashed #c1c2c2;
+  align-items: center;
+  height: 25px;
+}
+
+.pickTableTd:hover {
+  background-color: #EFFAFF;
+}
+
+.pickTableTd > div {
+  cursor: default;
+}
+
+.confirmBetTableData {
+  height: 120px;
+  overflow-y: scroll;
+}
+.tableTr1 {
+  width: 130px;
+  text-align: center;
+}
+.tableTd1 {
+  width: 130px;
+  color: #2466d8;
+  text-align: center;
+}
+.tableTr2 {
+  width: 90px;
+  text-align: center;
+}
+.tableTr3 {
+  width: 90px;
+  text-align: center;
+}
+
+.tableTr4 {
+  width: 90px;
+  text-align: center;
+}

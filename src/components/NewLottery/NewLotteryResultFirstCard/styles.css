@@ -1,0 +1,23 @@
+
+.lotteryResultFirstCard {
+  height: 209px;
+  width: 291px;
+  padding: 5px 3px 2px;
+  background-color: #dbdbdb;
+}
+.cardTabs {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-start;
+  box-shadow: inset 0px -3px 0px #c1c2c2;
+}
+.cardTab {
+  width: 100px;
+  text-align: center;
+  padding: 5px 0;
+  cursor: pointer;
+}
+.cardTab:hover {
+  cursor: pointer;
+}

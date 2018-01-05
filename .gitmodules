@@ -1,0 +1,3 @@
+[submodule "src/lib/tinker"]
+	path = src/lib/tinker
+	url = https://github.com/huliyou/tinker.git

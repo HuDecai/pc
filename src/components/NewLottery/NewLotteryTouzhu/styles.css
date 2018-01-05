@@ -1,0 +1,129 @@
+.newLotteryTouZhu {
+  padding: 20px 5px;
+  width: 100%;
+  height: 353px;
+  font-size: 14px;
+  color: #5d5d5d;
+}
+
+.newLotteryTouZhu1 {
+  height: 250px;
+  padding: 0 5px;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0px 2px 0px rgba(255,255,255,.4);
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.contents {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0 15px;
+}
+
+.newLotteryTouZhu2 {
+  padding: 20px 5px 0;
+}
+
+.content1 {
+  width: 37px;
+  height: 37px;
+  border-radius: 37px;
+  text-align: center;
+  line-height: 37px;
+  background-color: #fff;
+  background-image: url('../../../assets/images/new-lottery-icon1.png');
+  cursor: pointer;
+}
+
+.content2 {
+  width: 37px;
+  height: 37px;
+  border-radius: 37px;
+  text-align: center;
+  line-height: 37px;
+  background-color: #fff;
+  background-image: url('../../../assets/images/new-lottery-icon2.png');
+  cursor: pointer;
+}
+
+.content3 {
+  width: 37px;
+  height: 37px;
+  border-radius: 37px;
+  text-align: center;
+  line-height: 37px;
+  background-color: #fff;
+  background-image: url('../../../assets/images/new-lottery-icon3.png');
+  cursor: pointer;
+}
+
+.content4 {
+  width: 37px;
+  height: 37px;
+  border-radius: 37px;
+  text-align: center;
+  line-height: 37px;
+  background-color: #fff;
+  background-image: url('../../../assets/images/new-lottery-icon4.png');
+  cursor: pointer;
+}
+
+.content5 {
+  width: 37px;
+  height: 37px;
+  border-radius: 37px;
+  text-align: center;
+  line-height: 37px;
+  background-color: #fff;
+  background-image: url('../../../assets/images/new-lottery-icon5.png');
+  cursor: pointer;
+}
+
+.submitButton {
+  height: 35px;
+  width: 100px;
+  border: 1px solid #da3c4b;
+  background-color: #e75a67;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 17.5px;
+  text-align: center;
+  line-height: 35px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.submitButton:hover {
+  background-color: #ef4656;
+}
+
+.calButton {
+  height: 35px;
+  width: 100px;
+  border: 1px solid #939393;
+  background-color: #fdfdfd;
+  border-radius: 3px;
+  font-size: 17.5px;
+  text-align: center;
+  line-height: 35px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.calButton:hover {
+  background-color: #f9f9f9;
+}
+
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+

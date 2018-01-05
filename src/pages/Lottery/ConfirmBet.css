@@ -1,0 +1,282 @@
+.confirmBet {
+  height: 140px;
+  display: flex;
+  flex-direction: row;
+  width: 762px;
+}
+.confirmBetLeft {
+  width: 542px;
+}
+.confirmBedivight {
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  border-left: 2px dashed #fff;
+  padding: 5px 10px 10px;
+  width: 220px;
+}
+.confirmBetToday {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px dashed #c1c2c2;
+  font-size: 13px;
+  padding: 6px 5px;
+}
+.confirmBetTotal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  padding: 6px 5px;
+}
+
+.confirmButtonLeft {
+  display: inline-block;
+  cursor: pointer;
+  /*background-color: #f5f5f5 !important;*/
+  font-size: 17.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 39px;
+  line-height: 39px;
+  margin-right: 4px;
+  width: 73px;
+  border-radius: 3px;
+  border: 1px solid rgb(226, 226, 226);
+  background-image: linear-gradient( 0deg, rgb(241,241,241) 0%, rgb(255,255,255) 76%);
+}
+
+.confirmButtonLeft:focus,  .confirmButtonLeft:hover{
+  /*background-color: #41a2cf !important;*/
+  /*color: black !important;*/
+  background-image: linear-gradient( 0deg, rgb(255,255,255) 24%, rgb(241,241,241) 100%);
+}
+
+.confirmButtonRight1 {
+  cursor: pointer;
+  display: inline-block;
+  width: 115px;
+  height: 39px;
+  line-height: 39px;
+  /*background-color: #de3c4b;*/
+  color: #fff;
+  font-size: 17.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(218, 60, 75);
+  border-radius: 3px;
+  background-image: linear-gradient( 0deg, rgb(222,60,75) 1%, rgb(227,69,84) 42%, rgb(231,78,92) 100%);
+}
+
+.confirmButtonRight1:hover, .confirmButtonRight1:focus {
+  background-image: linear-gradient( 0deg, rgb(233,95,108) 1%, rgb(234,108,114) 42%, rgb(248,113,120) 100%);
+  border: 1px solid #e95f6c;
+}
+
+
+.confirmButtonRight2 {
+  cursor: pointer;
+  line-height: 39px;
+  display: inline-block;
+  width: 115px;
+  height: 39px;
+  /*background-color: #de3c4b;*/
+  color: #fff;
+  font-size: 17.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #41a2cf;
+  border-radius: 3px;
+  background-image: linear-gradient( 0deg, rgb(52,142,184) 1%, rgb(59,152,196) 42%, rgb(65,162,207) 100%);
+}
+
+.confirmButtonRight2:hover, .confirmButtonRight2:focus {
+  background-image: linear-gradient( 0deg, rgb(71,167,212) 1%, rgb(79,177,224) 42%, rgb(85,187,235) 100%);
+  border: 1px solid #47a7d4;
+}
+
+
+.confirmButtonRight3 {
+  cursor: pointer;
+  line-height: 39px;
+  display: inline-block;
+  width: 115px;
+  height: 39px;
+  /*background-color: #de3c4b;*/
+  color: #fff;
+  font-size: 17.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #41a2cf;
+  border-radius: 3px;
+  background-image: linear-gradient( 0deg, rgb(62,125,65) 1%, rgb(54,148,58) 42%, rgb(46,171,51) 100%);
+}
+
+.confirmButtonRight3:hover, .confirmButtonRight3:focus {
+  background-image: linear-gradient( 0deg, rgb(95,175,71) 1%, rgb(87,188,64) 42%, rgb(79,212,57) 100%);
+  border: 1px solid #5faf47;
+}
+
+.confirmButtonRight4 {
+  cursor: pointer;
+  display: inline-block;
+  width: 115px;
+  height: 39px;
+  line-height: 39px;
+  /*background-color: #de3c4b;*/
+  color: #fff;
+  font-size: 17.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(230,163,76);
+  border-radius: 3px;
+  background-image: linear-gradient( 0deg, rgb(230,163,76) 1%, rgb(232,187,84) 42%, rgb(233,210,91) 100%);
+
+}
+
+.confirmButtonRight4:hover, .confirmButtonRight4:focus {
+  background-image: linear-gradient( 0deg, rgb(219,185,86) 1%, rgb(221,199,94) 42%, rgb(223,220,101) 100%);
+  border: 1px solid rgb(219,185,86);
+}
+
+.modalHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c1c2c2;
+  font-size: 15px;
+  padding: 5px 10px;
+}
+
+:global(.ant-modal-header) {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+:global(.ant-confirm-body-wrapper) {
+  padding: 10px !important;
+}
+
+.toolTips {
+  display: flex;
+  width: 130px;
+}
+
+.toolTips1 {
+  width:90px;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+
+.toolTips2 {
+  background-color: #de3c4b;
+  color: #fff;
+  padding: 1px 5px 0px 5px;
+  border-radius: 3px;
+}
+
+.rowColor {
+  background-color: #f2f2f2;
+}
+
+.confirmBetTable {
+  display: flex;
+  background-color: #f2f2f2;
+  height: 30px;
+  font-size: 12px;
+  border-bottom: 1px dashed #c1c2c2;
+  align-items: center;
+  font-weight: blod;
+  margin: 0px 10px;
+}
+
+.pickTableTd {
+  display: flex;
+  background-color: #f2f2f2;
+  height: 30px;
+  font-size: 12px;
+  border-bottom: 1px dashed #c1c2c2;
+  align-items: center;
+  margin: 0px 10px;
+  cursor: default;
+}
+
+.pickTableTd:hover {
+  background-color: #EFFAFF;
+}
+
+.confirmBetTableData {
+  height: 108px;
+  overflow-y: scroll;
+}
+
+.tableTr1, .tableTr3, .tableTr4 {
+  width: 60px;
+}
+
+.tableTr1 {
+  width: 80px;
+}
+
+.tableTr2 {
+  width: 150px;
+}
+
+.tableTr5 {
+  width: 80px;
+}
+
+.tableTr6 {
+  width: 90px;
+}
+
+.tableTr7 {
+  width: 30px;
+}
+
+.tableTr7:hover {
+  color: red;
+}
+
+
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.submitButton {
+  text-align: center;
+  border-radius: 3px;
+  color: #41a2cf;
+  height: 30px;
+  width: 100px;
+  font-size: 18px;
+  margin-left: 10px;
+  cursor: default;
+  border: 1px solid #ccc;
+}
+
+.calButton {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  height: 30px;
+  width: 100px;
+  font-size: 18px;
+  text-align: center;
+  cursor: default;
+}
+
+.calButton:hover, .submitButton:hover {
+  border: 1px solid #999;
+}

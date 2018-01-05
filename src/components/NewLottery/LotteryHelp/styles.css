@@ -1,0 +1,35 @@
+.lotteryHelp {
+  z-index: 999;
+}
+
+.lotteryHelpImg {
+  height: 50px;
+  margin-top: 58px;
+}
+
+.lotteryHelpContent {
+  margin-left: 23px;
+  font-size: 12px;
+  color: #fff;
+  background-color: #525252;
+  position: absolute;
+  max-width: 25%;
+  top: 95px;
+  padding: 10px;
+  line-height: 20px;
+  transition: 5s height, 5s width;
+}
+
+.noLotteryHelpContent {
+  margin-left: 23px;
+  font-size: 12px;
+  color: #fff;
+  background-color: #525252;
+  position: absolute;
+  max-width: 50%;
+  top: 95px;
+  line-height: 20px;
+  overflow:hidden;
+  width: 0;
+  height: 0;
+}

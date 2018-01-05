@@ -1,0 +1,148 @@
+body {
+  font-family: 微软雅黑;
+}
+
+.bodyComponent {
+  height: 100vh;
+  width: 100vw;
+  min-width: 1270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: 微软雅黑;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contentBody {
+  margin-top: 5px;
+  background-color: #fff;
+  width: 950px;
+  height: 360px;
+  box-shadow: -1px 5px 25px 0px black;
+  padding: 20px 35px;
+}
+
+.headerRight {
+  display: flex;
+  align-items: flex-end;
+}
+
+.title {
+  height: 30px;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 2px;
+}
+
+
+.titleLeft {
+  font-size: 18px;
+  color: #5b5b5b;
+}
+
+.titleRigth {
+  font-size: 16px;
+  color: #848484;
+}
+
+.passButton {
+  width: 304px;
+  height: 40px !important;
+  background-color: #E14A59 !important;
+  color: #fff !important;
+  font-size: 16px !important;
+  margin-left: 72px;
+}
+
+.passButton:hover, .passButton:visited, .passButton:active, .passButton:focus {
+  border-color: #E14A59 !important;
+}
+
+:global(.ant-row ant-form-item) {
+  margin-bottom: 0 !important;
+}
+
+.items {
+  display: flex;
+  height: 42px;
+  margin-bottom: 10px;
+  margin-left: 105px;
+  font-size: 14px;
+  color: #696969;
+}
+
+.items > div > span {
+  color: #de3c4b;
+}
+.item1 {
+  line-height: 42px;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+.item2 {
+  line-height: 42px;
+  margin-left: 28px;
+  margin-right: 5px;
+}
+.item3 {
+  line-height: 42px;
+  margin-right: 5px;
+}
+.item4 {
+  line-height: 42px;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.normalMeg {
+  font-size: 13px;
+  line-height: 42px;
+  margin-left: 10px;
+}
+
+.errorMeg {
+  display: flex;
+  line-height: 42px;
+  margin-left: 10px;
+  color: #E14A59;
+  font-size: 13px;
+}
+
+.yanzheng {
+  width: 300px;
+  display: flex;
+}
+
+.yanzhengma {
+  font-size: 15px;
+  margin-left: 10px;
+  width: 80px;
+  height: 38px;
+  line-height: 43px;
+  border-radius: 1px;
+  background: url('../../assets/images/yanzhengma.png');
+  background-color: #319a8c;
+  color: #fff;
+  font-family:Arial;
+  font-style:italic;
+  padding:2px 3px;
+  letter-spacing:5px;
+  font-weight:bolder;             
+  float:left;            
+  text-align:center;
+  vertical-align:middle;
+}

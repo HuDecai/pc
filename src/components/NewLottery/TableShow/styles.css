@@ -1,0 +1,71 @@
+.pickTableHeader {
+  display: flex;
+  font-size: 12px;
+  border-bottom: 1px dashed #c1c2c2;
+  height: 30px;
+  align-items: center;
+}
+
+.pickTableTd {
+  display: flex;
+  font-size: 12px;
+  border-bottom: 1px dashed #c1c2c2;
+  align-items: center;
+  height: 25px;
+}
+
+.pickTableTd:hover {
+  background-color: #EFFAFF;
+}
+
+.confirmBetTableData {
+  height: 120px;
+  overflow-y: scroll;
+}
+
+.table11 {
+  margin: 2px;
+  width: 80px;
+  word-break: break-all;
+  text-align: center;
+}
+
+.table12 {
+  margin: 2px;
+  width: 140px;
+  word-break: break-all;
+  text-align: center;
+}
+
+.table13 {
+  margin: 2px;
+  width: 40px;
+  word-break: break-all;
+  text-align: center;
+}
+
+.table2 {
+  margin: 2px;
+  width: 87px;
+  word-break: break-all;
+}
+
+.table3 {
+  margin: 2px;
+  width: 110px;
+  word-break: break-all;
+}
+
+.table4 {
+  margin: 2px;
+  width: 70px;
+  word-break: break-all;
+  text-align: center;
+}
+
+.table41 {
+  margin: 2px 2px 2px 10px;
+  width: 70px;
+  word-break: break-all;
+  text-align: left;
+}

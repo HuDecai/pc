@@ -1,0 +1,146 @@
+body {
+  margin: 0 0;
+}
+.entrys {
+  width: 100%;
+  min-width: 1270px;
+  z-index: 100;
+  font-size: 12px;
+  color: #a1a1a1;
+  letter-spacing: 0;
+  line-height: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0 30px;
+}
+
+.container {
+  margin-top: 15px auto;
+  min-width: 1100px;
+  height: 344px;
+  font-size: 12px;
+  color: rgb(91, 91, 91);
+  z-index: 70;
+  display: flex;
+  align-items: flex-end;
+}
+
+.entryLeft {
+  z-index: 100;
+  height: 100%;
+  width: 240px;
+}
+
+.leftChild1 {
+  background: #868686;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 59px;
+  /*cursor: pointer;*/
+}
+
+.leftChild2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 95px;
+  background: #00c800;
+  cursor: pointer;
+}
+
+.leftChild2:hover {
+  background: #00d400;
+}
+
+.leftChild3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 95px;
+  background: #00a0e9;
+  cursor: pointer;
+}
+
+.leftChild3:hover {
+  background: #00abf1;
+}
+
+.leftChild4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 95px;
+  background: #ef6e6c;
+  cursor: pointer;
+}
+.leftChild4:hover {
+  background: #f57573;
+}
+
+
+/* right */
+
+.entryRight {
+  z-index: 100;
+  margin-left: 10px;
+  display: flex;
+}
+
+.rightChild {
+  width: 176px;
+  height: 344px;
+  z-index: 50;
+  position: relative;
+}
+
+.rightChild:hover {
+  transform: scale(1.05);
+  z-index: 59;
+  box-shadow: -1px 5px 25px 5px black;
+  cursor: pointer;
+}
+
+.rightChild img:first-child{
+  position: absolute;
+  font-size: 14px;
+  color: #fff;
+  bottom: 0;
+  z-index: 55;
+}
+
+.hoverRightChild {
+  background-color: black;
+  transform: scale(1.05);
+  box-shadow: -1px 5px 25px 5px black;
+  z-index: 100;
+}
+
+.rightChild:hover div {
+  /*transform: scale(1.05);*/
+}
+
+.entryTextBg {
+  width: 100%;
+  position: absolute;
+  font-size: 18px;
+  color: #fff;
+  bottom: 0px;
+  z-index: 60;
+  text-align: center;
+  width: 100%;
+  height: 60px;
+  line-height: 70px;
+  background: linear-gradient(to top, rgba(0,0,0,1), rgba(255,255,255,0));
+  cursor: pointer;
+}
+
+.entryTextBg:hover {
+  color: #e84122;
+}

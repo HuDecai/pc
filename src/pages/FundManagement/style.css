@@ -1,0 +1,411 @@
+.BaseInfoContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+    font-family: 微软雅黑;
+}
+
+.helpCenterBottom {
+  width: 100%;
+  height: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #878787;
+}
+.helpCenterBottom1 {
+  font-size: 13px;
+  display: flex;
+}
+.helpCenterBottom1 > div {
+  margin: 0 20px 10px;
+  cursor: pointer;
+}
+
+.helpCenterBottom1 > div:hover {
+  color: #de3c4b;
+}
+/*导航*/
+.navHeader{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.contentContainer{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 1050px;
+    height: 830px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.leftContent{
+    border-right: 1px solid #bebebe;
+    display: flex;
+    flex-direction: column;
+    background-color: #e7e7e7;
+    width: 230px;
+}
+
+.userIcon{
+    width: 120px;
+    height: 120px;
+    background-color: blue;
+    border-radius: 120px;
+}
+
+.nameContainer{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    font-size: 14px;
+}
+
+.money{
+    color: #de3c4b;
+    margin-left: -9px;
+    font-size: 26px;
+    margin-top: 10px;
+}
+.userInfoContainer{
+    height: 112px;
+    padding: 20px 0 20px 20px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #bebebe;
+    width: 100%;
+}
+
+.itemBtnNormal{
+    display: flex;
+    justify-content: center;
+    padding: 16px 0 16px 0;
+    align-items: center;
+    border-bottom: 1px solid #bebebe;
+    width: 100%;
+    cursor: pointer;
+}
+
+.itemBtnSelected{
+    display: flex;
+    justify-content: center;
+    padding: 16px 0 16px 0;
+    align-items: center;
+    border-bottom: 1px solid #bebebe;
+    background-color: white;
+    width: 231px;
+    cursor: pointer;
+}
+
+
+.rechargeDetailContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemBtnIcon{
+    /*width: 51px;
+    height: 51px;*/
+}
+
+.itemBtnTitle{
+    font-size: 18px;
+    color: #646464;
+    margin-left: 24px;
+}
+
+.topItemContainer{
+    display: flex;
+    width: 725px;
+}
+
+.topItemNormal{
+    width: 95px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #808080;
+    background-color: #e7e7e7;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.topItemSelected{
+    width: 95px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    background-color: #de3c4b;
+    font-size: 16px;
+}
+
+.redLine{
+    width: 725px;
+    height: 2px;
+    background-color: #de3c4b;
+}
+
+.moneyContainer{
+    width: 821px;
+    padding: 32px 50px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.rechargeContainer{
+    width: 100%;
+    padding: 0 20px;
+}
+
+.bankList{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.bankListContainer{
+    display: flex;
+    padding: 16px 23px 16px 23px;
+    margin-top: 10px;
+    background-color: #f8f8f8;
+}
+
+.bankImgNormal{
+    border: 1px solid #bebebe;
+    background-color: #fff;
+    width: 130px;
+    height: 35px;
+    cursor: pointer;
+}
+.bankImgNormal .cardItem {
+  width: 128px;
+  height: 33px;
+}
+
+.bankImgSelect{
+    position: relative;
+    width: 130px;
+    height: 35px;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+.bankImgSelect .checkedCardBorder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 130px;
+  height: 35px;
+  border: 2px solid #de3c4b;
+}
+.bankImgSelect .checkedCardTip {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  width: 0;
+  height: 0;
+  border-top: 15px solid #de3c4b;
+  border-left: 15px solid transparent;
+}
+.bankImgSelect .checkedCard {
+  position: absolute;
+  top: 3px;
+  right: 1px;
+  width:7px;
+}
+.bankImgSelect .cardItem {
+  /*position: absolute;*/
+  /*top: 1px;*/
+  /*left: 1px;*/
+  /*width: 128px;*/
+  /*height: 33px;*/
+}
+
+.title{
+    font-size: 14px;
+    color: #5b5b5b;
+    margin-top: 10px;
+}
+
+.moneyListContainer{
+    display: flex;
+    margin-top: 20px;
+}
+
+.moneyItemNormal{
+    line-height: 30px;
+    background-color: #f8f8f8;
+    border: 1px solid #bebebe;
+    color: #5b5b5b;
+    width: 57px;
+    height: 30px;
+    text-align: center;
+    cursor: default;
+}
+
+.moneyItemSelect{
+    line-height: 30px;
+    background-color: #7a7a7a;
+    color: white;
+    width: 57px;
+    height: 30px;
+    text-align: center;
+    cursor: default;
+}
+
+.showMoneyView{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.yellowBack{
+    background-color: #fffdd7;
+    width: 304px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    color: #de3c4b;
+    font-size: 22px;
+}
+
+.submitBtn{
+    height: 42px;
+    display: flex;
+    font-size: 22px;
+    color: white;
+    background-color: rgb(222, 60, 75);
+    width: 143px;
+    text-align: center;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.submitBtn:hover {
+  background-color: #e25965;
+}
+
+.rechargeDetailTitle{
+    font-size: 18px;
+    color: #858585;
+
+}
+.detailMoney{
+    color: #de3c4b;
+    font-size: 16px;
+}
+.copyItemContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.detailTopContainer{
+    padding: 16px 23px 16px 23px;
+    margin-top: 10px;
+    background-color: #f8f8f8;
+    width: 100%;
+}
+
+.copyButton {
+    background-color: #de3c4b;
+    color: #fff;
+    width: 60px;
+    height: 30px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.rechargeDetailBankContainer{
+    display: flex;
+    align-items: center;
+    margin-top: 23px;
+}
+
+.rechargeDetailSubTitle{
+    font-size: 14px;
+    color: #858585;
+}
+
+.extraWord{
+    background-color: #fffdd7;
+    font-size: 24px;
+    color: #de3c4b;
+    padding: 5px 10px;
+    border: 1px solid #de3c4b;
+}
+
+.rechargeInputContent {
+  font-size: 14px;
+  padding: 20px 22px;
+}
+
+.fundError {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+
+{/***转账*/}
+.quickSelectMoney {
+  color: rgba(0,0,0,.85);
+  display: flex;
+  align-items: center;
+}
+
+{/*提现*/}
+.withContainer {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+}
+
+.withCards {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.withText {
+  display: flex;
+  align-items: center;
+  margin-left: 80px;
+}
+
+.withTextFirst {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #de3c4b;
+  margin-right: 5px;
+}
+
+.withText > span {
+  color: #de3c4b;
+}
+.cardItemname{margin-left: 0px;font-size: 16px;}
+.cardItemnamebox{display: block;}
+.cardItemnamebox .cardItem{margin-right: 5px;width: auto;margin-left: 5px;}
+.cardItemnamebox .cardItem,.cardItemnamebox .cardItemname{vertical-align: middle;}
+.bankImgSelect .cardItemZxian{width: 128px;}

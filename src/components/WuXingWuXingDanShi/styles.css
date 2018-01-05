@@ -1,0 +1,12 @@
+
+.bottomText {
+  margin: 10px 0px;
+  font-size: 12px;
+  color: #646464;
+}
+
+.bottomItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}

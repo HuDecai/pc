@@ -1,0 +1,106 @@
+.cards {
+  display: flex;
+  border-bottom: 2px solid #e35966;
+}
+
+.checkedCard {
+  background: #e35966;
+  color: #fff;
+  font-size: 16px;
+  height: 30px;
+  width: 70px;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.noCard {
+  background: #fff;
+  color: #464646;
+  font-size: 16px;
+  height: 30px;
+  width: 70px;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.playContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.playContentCard {
+  border-radius: 5px;
+  margin-top: 5px;
+  height: 60px;
+  width: 113px;
+  border: 1px solid #c2c2c2;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.playContentCard:hover {
+  border: 1px solid #e35966;
+  box-shadow: 0px 0px 2px #e35966 inset;
+}
+
+.playContentCard1 {
+  border-radius: 5px;
+  margin-top: 5px;
+  height: 60px;
+  width: 153px;
+  border: 1px solid #c2c2c2;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.playContentCard1:hover {
+  border: 1px solid #e35966;
+  box-shadow: 0px 0px 2px #e35966 inset;
+}
+
+.selectPlayContentCard {
+  border-radius: 5px;
+  margin-top: 5px;
+  height: 60px;
+  width: 113px;
+  border: 1px solid #e35966;
+  background: url('../../../assets/images/new-lottery-selected.png') no-repeat 92px top;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.selectPlayContentCard1 {
+  border-radius: 5px;
+  margin-top: 5px;
+  height: 60px;
+  width: 153px;
+  border: 1px solid #e35966;
+  background: url('../../../assets/images/new-lottery-selected.png') no-repeat 133px top;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+  font-size: 14px;
+  cursor: pointer;  
+}

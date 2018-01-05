@@ -1,0 +1,66 @@
+.userCard {
+  height: 110px;
+  width: 291px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 3px 10px;
+  background-color: #dbdbdb;
+}
+.userCardCell {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  font-size: 13px;
+  background-color: #f2f2f2;
+  z-index: 9999;
+}
+
+.userCardRight {
+  display: flex;
+  align-items: center;
+}
+
+.monery {
+  font-size: 13px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  color: #2466d8;
+}
+.resetImg {
+  margin-left: 4px;
+  width: 15px;
+  height: 15px;
+  background-image: url('../../assets/images/lottery_reset2.png');
+  background-size: 15px 15px;
+}
+
+.resetImg:hover {
+  margin-left: 4px;
+  width: 15px;
+  height: 15px;
+  background-image: url('../../assets/images/lottery_reset1.png');
+  background-size: 15px 15px;
+}
+.buttonStyle {
+  display: block;
+  border-radius: 3px;
+  background-color: #525252;
+  width: 61px;
+  height: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  cursor: pointer;
+  z-index: 1000;
+  font-size: 14px;
+}
+
+.buttonStyle:hover {
+  background-color: #646464;
+}

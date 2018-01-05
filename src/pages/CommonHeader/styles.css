@@ -1,0 +1,87 @@
+body {
+  margin: 0 0;
+  font-family: 微软雅黑;
+}
+.whiteHeader {
+  width: 100%;
+  /*min-width: 1270px;*/
+  z-index: 100;
+  background: #e7e7e7;
+  font-size: 12px;
+  color: #a1a1a1;
+  letter-spacing: 0;
+  line-height: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 0 4px;
+  height: 60px;
+}
+
+
+.container {
+  min-width: 1050px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  color: #5b5b5b;
+  /*width: 540px;*/
+}
+.nav div {
+  cursor: pointer;
+  margin-left: 48px;
+}
+
+.logo {
+  /*margin-left: -10px;*/
+}
+
+.userCenter {
+  height: 20px;
+  cursor: pointer;
+  background: url('../../assets/images/user-info-icon1.png') no-repeat;
+}
+
+.userCenter:hover, .onUserCenter {
+  height: 20px;
+  color: #df4755;
+  background: url('../../assets/images/user-indo-icon-select1.png') no-repeat;
+}
+
+.moneyGuanli {
+  cursor: pointer;
+  background: url('../../assets/images/user-info-icon2.png') no-repeat;
+}
+
+.moneyGuanli:hover, .onMoneyGuanli {
+  color: #df4755;
+  background: url('../../assets/images/money-select.png') no-repeat;
+}
+
+.orderSelect {
+  cursor: pointer;
+  background: url('../../assets/images/user-info-icon3.png') no-repeat;
+}
+
+.orderSelect:hover, .onOrderSelect {
+  color: #df4755;
+  background: url('../../assets/images/order-select.png') no-repeat;
+}
+
+.daili {
+  cursor: pointer;
+  background: url('../../assets/images/user-info-icon4.png') no-repeat;
+}
+
+.daili:hover, .onDaili {
+  color: #df4755;
+  background: url('../../assets/images/center-select.png') no-repeat;
+}

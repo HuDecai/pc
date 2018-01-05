@@ -1,0 +1,135 @@
+.selectDetail {
+  padding: 5px;
+}
+.selectDetailCell {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.selectDetailCellLeft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.selectDetailTitle {
+  font-size: 14px;
+  width: 45px;
+  margin: 0 5px;
+  /*margin-left: 20px;*/
+  font-weight: bold;
+}
+.selectDetailYilouTitle {
+  font-size: 12px;
+  width: 43px;
+  text-align: center;
+  color: #ccc;
+  border-bottom: 1px dashed #ccc;
+  margin-right: 11px;
+  margin-left: 2px;
+  font-weight: bold;
+}
+.selectDetailNumbers {
+  display: flex;
+  flex-direction: row;
+}
+
+.selectDetailNumbers1 {
+  width: 748px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.selectDetailNumbers1 > div {
+  margin: 0 30px;
+}
+.selectDetailYilous {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.selectDetailNumber {
+  background-color: #fff;
+  font-size: 22px;
+  border: 1px solid #c1c2c2;
+  height: 48px;
+  width: 48px;
+  line-height: 48px;
+  border-radius: 48px;
+  text-align: center;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.selectDetailyilou {
+  font-size: 16px;
+  color: #ccc;
+  height: 18px;
+  width: 48px;
+  line-height: 18px;
+  text-align: center;
+  margin: 0 5px;
+}
+.selectDetailNumber:hover {
+  box-shadow: 0px 0px 15px #444;
+  cursor: pointer;
+}
+.selectDetailTypes {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.selectDetailType {
+  height: 23px;
+  width: 23px;
+  border-radius: 5px;
+  background-color: #c1c2c2;
+  margin: 2px 2px;
+  font-size: 14px;
+  line-height: 23px;
+  display: inline-block;
+  text-align: center;
+}
+.selectDetailType:hover {
+  box-shadow: 0px 0px 5px #c1c2c2;
+  cursor: pointer;
+}
+
+.onSelectDetailType {
+  height: 23px;
+  width: 23px;
+  border-radius: 5px;
+  background-color: #41a2cf;
+  margin: 2px 2px;
+  font-size: 14px;
+  line-height: 23px;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+}
+
+.onSelectDetailNumber {
+  font-size: 22px;
+  box-shadow:inset 0 0 2px 2px rgba(43,119,156,0.8);
+  background-color: #41a2cf;
+  height: 48px;
+  width: 48px;
+  line-height: 48px;
+  border-radius: 48px;
+  text-align: center;
+  margin: 0 5px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.selectDetailYilouTitleTwo {
+  font-size: 12px;
+  width: 26px;
+  text-align: center;
+  color: #ccc;
+  margin-right: 11px;
+  margin-left: 16px;
+  font-weight: bold;
+}

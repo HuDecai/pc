@@ -1,0 +1,36 @@
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  outline:medium;
+}
+
+/*获取焦点时 外边框显示红色*/
+input:focus{
+  border:1px solid #de3c4b;
+  padding: 0 5px;
+}
+
+select {
+  /*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
+  border: solid 1px rgb(204, 204, 204);
+
+  /*很关键：将默认的select选择框样式清除*/
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+
+  /*在选择框的最右侧中间显示小箭头图片*/
+  background: url("../../assets/images/arrow-down-select.png") no-repeat scroll 97% center transparent;
+
+  /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+  padding-right: 14px;
+  padding-left: 10px;
+}
+
+select:focus{
+  /*border:1px solid #de3c4b;*/
+}
+
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand { display: none; }

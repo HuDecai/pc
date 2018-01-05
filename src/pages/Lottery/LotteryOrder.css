@@ -1,0 +1,156 @@
+.lotteryOrder {
+  border-top: 1px solid #c1c2c2;
+  border-bottom: 1px solid #c1c2c2;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5px;
+  background: #fff;
+  box-shadow: inset 0px -2px 0px rgba(193,194,194,.7);
+}
+
+.lotteryOrderSelect {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.lotteryOrderExp {
+  width: 180px;
+}
+
+.lotteryOrderUnit {
+  display: inline-block;
+  font-size: 14px;
+  height: 28px;
+  width: 28px;
+  line-height: 28px;
+  text-align: center;
+  border: 1px solid #c1c2c2;
+  border-radius: 5px;
+  margin: 0 1px;
+}
+.lotteryOrderUnit:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px #c1c2c2;
+}
+.lotteryOrderMultiple {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-shrink: 1;
+}
+
+.lotteryOrderUnitChange1 {
+  display: inline-block;
+  font-size: 14px;
+  height: 28px;
+  width: 28px;
+  line-height: 28px;
+  text-align: center;
+  background-color: #de3c4b;
+  border: 1px solid #de3c4b;
+  border-radius: 5px;
+  margin: 0 1px;
+  color: #fff;
+}
+
+.lotteryOrderUnitChange2 {
+  display: inline-block;
+  font-size: 14px;
+  height: 28px;
+  width: 28px;
+  line-height: 28px;
+  text-align: center;
+  background-color: #41a2cf;
+  border: 1px solid #41a2cf;
+  border-radius: 5px;
+  margin: 0 1px;
+  color: #fff;
+}
+
+.lotteryOrderUnitChange3 {
+  display: inline-block;
+  font-size: 14px;
+  height: 28px;
+  width: 28px;
+  line-height: 28px;
+  text-align: center;
+  background-color: #47992e;
+  border: 1px solid #47992e;
+  border-radius: 5px;
+  margin: 0 1px;
+  color: #fff;
+}
+
+.lotteryOrderUnitChange4 {
+  display: inline-block;
+  font-size: 14px;
+  height: 28px;
+  width: 28px;
+  line-height: 28px;
+  text-align: center;
+  background-color: #d8b54d;
+  border: 1px solid #d8b54d;
+  border-radius: 5px;
+  margin: 0 1px;
+  color: #fff;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.submitButton {
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid #de3c4b;
+  background-color: #de3c4b;
+  color: #fff;
+  height: 30px;
+  width: 100px;
+  font-size: 18px;
+  margin-left: 10px;
+  cursor: default;
+}
+
+.submitButton:hover {
+  border: 1px solid rgb(198, 41, 50);
+  background-color: rgb(198, 41, 50);
+}
+
+.calButton {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  height: 30px;
+  width: 100px;
+  font-size: 18px;
+  text-align: center;
+  cursor: default;
+}
+
+.calButton:hover {
+  border: 1px solid #999;
+}
+
+.beishuInput:focus {
+  border: 1px solid #00aaee !important;
+}
+
+.clearButton {
+  display: inline-block;
+  border: 1px solid rgb(226, 226, 226);
+  border-radius: 3px;
+  background-image: linear-gradient( 0deg, rgb(241,241,241) 0%, rgb(255,255,255) 76%);
+  width: 60px;
+  height: 28px;
+  font-size: 14px;
+  margin-right: 5px;
+  text-align: center;
+  line-height: 28px;
+  cursor: pointer;
+}

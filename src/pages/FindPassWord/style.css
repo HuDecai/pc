@@ -1,0 +1,128 @@
+body {
+  font-family: 微软雅黑;
+}
+
+.bodyComponent {
+  height: 100vh;
+  width: 100vw;
+  min-width: 1270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: 微软雅黑;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.contentBody {
+  margin-top: 5px;
+  background-color: #fff;
+  width: 950px;
+  height: 360px;
+  box-shadow: -1px 5px 25px 0px black;
+  padding: 15px 0;
+}
+
+
+.headerRight {
+  display: flex;
+  align-items: flex-end;
+}
+
+/* 重置密码 */
+.contentHeader {
+  font-size: 18px;
+  text-align: center;
+}
+
+.contentHeaderLine {
+  border-bottom: 4px solid #E14A59;
+  width: 240px;
+  margin-left: 355px;
+}
+
+.passContent {
+  text-align: center;
+}
+
+/* cardline */
+
+.lineStyle {
+  display: flex;
+  margin: 30px auto 15px;
+  width: 702px;
+}
+
+.lineColor {
+  width: 100%;
+  border-top: 3px solid #E14A59;
+}
+
+.stepCard {
+  width: 23px;
+  height: 23px;
+  line-height: 23px;
+  border-radius: 23px;
+  background-color: #ccc;
+  margin: -10px auto 0;
+  color: #fff;
+  font-size: 15px;
+}
+
+.stepCard1 {
+  font-size: 13px;
+  color: #7f7f7f;
+}
+
+/* first step */
+
+.passButton {
+  width: 304px;
+  height: 40px !important;
+  background-color: #E14A59 !important;
+  color: #fff !important;
+  font-size: 16px !important;
+}
+
+.passButton:hover, .passButton:visited, .passButton:active, .passButton:focus {
+  border-color: #E14A59 !important;
+}
+
+.labelText {
+  text-align: left;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.errorMeg {
+  display: flex;
+  padding-top: 30px;
+  padding-left: 5px;
+  color: #E14A59;
+  font-size: 14px;
+}
+
+:global(.ant-input-lg) {
+  width: 304px !important;
+  height: 40px !important;
+}
+
+:global(.ant-input-affix-wrapper) {
+  width: 304px !important;
+  height: 40px !important;
+}
+
+:global(.ant-form-explain) {
+  height: 18px !important;
+}
